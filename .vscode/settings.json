@@ -3,5 +3,8 @@
     "editor.bracketPairColorization.enabled": true,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "appService.zipIgnorePattern": ["node_modules{,/**}", ".vscode{,/**}"],
+    "appService.defaultWebAppToDeploy": "/subscriptions/3544659b-7fc3-45d1-8f6c-4a43363e9e54/microsoft.web/sites/subscriptions/3544659b-7fc3-45d1-8f6c-4a43363e9e54/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/greenfield",
+    "appService.deploySubpath": "."
 }
