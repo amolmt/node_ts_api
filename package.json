@@ -5,7 +5,7 @@
     "main": "src/server.ts",
     "scripts": {
         "start": "node build/server.js",
-        "build": "node rm -rf build/ && tsc"
+        "build": "rm -rf build/ && tsc"
     },
     "keywords": [],
     "author": "",
